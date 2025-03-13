@@ -33,8 +33,29 @@ body {
   text-decoration: none;
   color: white;
 }
+
+.hero {
+  display: flex;
+  background-color: #1f2937;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  gap: 20px;
+}
+
+.hero .left {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  width: 400px;
+}
+
+.hero-right {
+  flex-grow: 0;
+}
 .hero-image {
-  width: 300px;
+  width: 400px;
+  height: 330px;
 }
 
 .content {
@@ -44,13 +65,56 @@ body {
 .card img {
   width: 100px;
 }
-
+.card p {
+  text-align: center;
+}
 .cards {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
+.card {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+}
 .carousel h2 {
   text-align: center;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.testimonial {
+  margin: 40px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #e5e7eb;
+  padding: 30px;
+}
+
+.testimonial .quote {
+  margin: 0;
+  padding: 0;
+  max-width: 500px;
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+}
+
+.testimonial .credit {
+  margin: 0;
+  padding: 0;
+  text-align: right;
+  width: 500px;
+  font-weight: bold;
+  max-width: 500px;
 }
 
 .footer {
