@@ -1,0 +1,58 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  font-family: Roboto, serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #1f2937;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+.nav-links {
+  margin: 0;
+  padding: 0;
+  padding-right: 15px;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+}
+.hero-image {
+  width: 300px;
+}
+
+.content {
+  flex-grow: 1;
+}
+
+.card img {
+  width: 100px;
+}
+
+.cards {
+  display: flex;
+}
+
+.carousel h2 {
+  text-align: center;
+}
+
+.footer {
+  background-color: green;
+}
